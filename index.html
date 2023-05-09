@@ -88,7 +88,7 @@
   
   <section class="bg-light py-5">
     <div class="container">
-      <h2>What are we missing, if any?</h2>
+      <h2>What are we missing... if any?</h2>
       <form id="feedback-form">
         <div class="mb-3">
           <label for="feedback" class="form-label">How would you add value to this service?</label>
@@ -102,9 +102,9 @@
   <script>
     document.getElementById('applyBtn').addEventListener('click', function() {
       const feedback = document.getElementById('feedback').value;
-      const subject = 'Early Access Application';
-      const body = `How would you add value to this service?%0D%0A%0D%0A${encodeURIComponent(feedback)}`;
-      const email = 'ai@impactscience.dev';
+      const subject = 'I gotcha!';
+      const body = `This site is a joke... obviosly. But happy to read your thoughts.%0D%0A%0D%0A${encodeURIComponent(feedback)}`;
+      const email = 'brunosan@hey.com';
       
       window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${body}`;
     });
