@@ -105,10 +105,8 @@
       const subject = 'Early Access Application';
       const body = `How would you add value to this service?%0D%0A%0D%0A${encodeURIComponent(feedback)}`;
       const email = 'ai@impactscience.dev';
-  
-      if (confirm("This is just a joke to reflect on the AI hype, but if you'd like to actually send your message, simply click 'OK'.")) {
-        window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${body}`;
-      }
+      
+      window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${body}`;
     });
   </script>
   <footer class="text-center py-4">
